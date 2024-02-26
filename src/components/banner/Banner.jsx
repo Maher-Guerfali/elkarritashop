@@ -4,7 +4,7 @@ import bannerImg from "../../assets/bannerImg.png";
 import { useNavigate } from "react-router";
 import {Canvas} from '@react-three/fiber';
 import { Environment, OrbitControls } from "@react-three/drei";
-import Kartia from '../../Karita'
+
 import { Suspense } from "react";
 
 const Banner = ({ catRef }) => {
@@ -23,14 +23,6 @@ const Banner = ({ catRef }) => {
         </p>
       
         <section className="flex items-center">
-          <Canvas>
-            <ambientLight/>
-            <OrbitControls/>
-            <Suspense fallback={null}>
-            
-            </Suspense>
-            <Environment preset="sunset"/>
-          </Canvas>
           <button
             className="btn-primary text-sm md:text-base"
             onClick={() => navigate("/products")}
