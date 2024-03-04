@@ -46,14 +46,17 @@ const Navbar = () => {
     >
       <div className="flex justify-between w-full items-center">
         <section className="relative flex items-center">
-          <Link to="/profile">
+      {
+        /*  <Link to="/profile">
             <img
-              className="rounded-full border-2  bg-yellow-300 me-3 hover:bg-yellow-500 cursor-pointer"
+              className=" border-2  bg-red-300 me-3 hover:bg-red-500 cursor-pointer"
               src={defaultUser}
               alt="userProfileImage"
               width={40}
             />
           </Link>
+          */
+      }  
 
           <Logo />
         </section>

@@ -52,8 +52,8 @@ const Modal = ({ showModal, setShowModal }) => {
       key: "rzp_test_H2lv7MTHG3JATn",
       amount: totalPriceOfCartProducts * 100,
       currency: "INR",
-      name: "Eyesome",
-      description: "Be awesome with eyesome :)",
+      name: "Elkarrita",
+      description: "El Karrita Shop",
       image: appLogo,
       handler: function () {
         clearCart();
@@ -64,7 +64,7 @@ const Modal = ({ showModal, setShowModal }) => {
       prefill: {
         name: userInfo ? userInfo.username : "Test",
         email: userInfo ? userInfo.email : "abc@gmail.com",
-        contact: "9833445762",
+        contact: "23237006",
       },
       theme: {
         color: "#f9ca24",

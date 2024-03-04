@@ -63,7 +63,7 @@ const ProductListing = () => {
             />
           </header>
           <section className="py-3 flex flex-col md:flex-row gap-2 justify-between">
-            <h1 className="text-2xl font-bold">Glasses for You!</h1>
+            <h1 className="text-2xl font-bold">Crafting...</h1>
             <div className="flex items-center gap-2">
               <Filters
                 isFilterOpen={isFilterOpen}

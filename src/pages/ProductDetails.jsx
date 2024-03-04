@@ -78,10 +78,7 @@ const ProductDetails = () => {
                 </li>
               </div>
               <div>
-                <li>
-                  <span className="text-gray-500 text-sm">Gender: </span>
-                  {product?.gender}
-                </li>
+               
                 <li>
                   <span className="text-gray-500 text-sm">Heavy: </span>
                   {product?.weight}

@@ -11,7 +11,7 @@ import glassCategory4 from "../../assets/categories/VRprinted.png";
 export const categories = [
   {
     _id: "ef1f52f6-4e35-4cd7-ad4a-0a9b52de894f",
-    categoryName: "Gadget/Accessories",
+    categoryName: "Retail",
     description:
       "Find cool stuff we pick just for you, making your style stand out.",
     categoryImg: glassCategory1,
@@ -31,8 +31,8 @@ export const categories = [
     categoryImg: glassCategory3,
   },
   {
-    _id: "1164f45b-1659-4631-88d7-47325bb21eff",
-    categoryName: "Virutal Toys",
+    _id: "13434f45b-1659-4631-88d7-47325bb21eff",
+    categoryName: "Virtual",
     description:
       "Play awesome games and toys with your phone or glasses, in a whole new way.",
     categoryImg: glassCategory4,

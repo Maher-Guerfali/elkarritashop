@@ -20,15 +20,17 @@ const Banner = ({ catRef }) => {
           Custom made order just for you
           <br />
           3D printed, Clay , Virtual Objects
+          <br />
+          Worldwide Shipping.
         </p>
       
         <section className="flex items-center">
-          <button
-            className="btn-primary text-sm md:text-base"
-            onClick={() => navigate("/products")}
-          >
-            Enter The Virtual Shop
-          </button>
+        <button
+  className="btn-primary text-xl md:text-3xl px-8 py-4 md:px-10 md:py-5 bg-blue-500 hover:bg-blue-600 text-white rounded-lg"
+  onClick={() => window.location.href = "https://elkarrita.glitch.me/"} // Replace "https://example.com" with the desired website URL
+>
+  Enter The Virtual Shop
+</button>
           <button
             className="p-3 flex items-center"
             onClick={() =>
