@@ -31,10 +31,17 @@ export const categories = [
     categoryImg: glassCategory3,
   },
   {
-    _id: "13434f45b-1659-4631-88d7-47325bb21eff",
+    _id: "134eef45b-1659-4631-88d7-4zzdde1eff",
     categoryName: "Virtual",
     description:
       "Play awesome games and toys with your phone or glasses, in a whole new way.",
+    categoryImg: glassCategory4,
+  },
+  {
+    _id: "122345b-1659-4631-88d7-4grasf",
+    categoryName: "Granoula",
+    description:
+      "Fuel your body and excite your taste buds with our protein-rich granola blends.",
     categoryImg: glassCategory4,
   },
 ];

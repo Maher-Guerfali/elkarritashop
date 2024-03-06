@@ -1,4 +1,4 @@
-export const checkboxCategories = ["Retail", "3D Printed", "Clay","Virtual"];
+export const checkboxCategories = ["Retail","Printable","Clay","Virtual","Granoula"];
 
 export const gendersList = ["all", "men", "women", "unisex"];
 

@@ -15,12 +15,12 @@ export const initialState = {
   },
   addressList: [
     {
-      id: "61bf1558-94c3-4494-a522-0aad46ed5334",
+      id: "61bf1558-94c3-4494-a522-0aad4ttt5334",
       fullname: "Maher Guerfali",
       mobile: "0637291830",
       flat: "42, Yongsan Trade Center, Yongsan ",
       area: "Hangang-daero",
-      city: "Seoul",
+      city: "Tunisia",
       pincode: "04322",
     },
   ],

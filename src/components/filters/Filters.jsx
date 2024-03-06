@@ -2,11 +2,9 @@ import { AiOutlineClose } from "react-icons/ai";
 import Checkbox from "./Checkbox";
 import InputRange from "./InputRange";
 import InputRadio from "./InputRadio";
-import InputRadioType2 from "./InputRadioType2";
 import { useProductsContext } from "../../contexts";
 import {
   checkboxCategories,
-  gendersList,
   ratings,
 } from "../../utils/constants";
 
@@ -41,14 +39,13 @@ const Filters = ({ isFilterOpen, setIsFilterOpen }) => {
         <InputRange />
       </section>
       <section className="py-3">
-        <FilterHeading text="Categories" />
+        <FilterHeading text="Categories" /> 
         <div className="flex flex-col gap-2">
           {checkboxCategories.map((data, index) => (
             <Checkbox data={data} key={index} />
           ))}
         </div>
       </section>
-
       <section className="py-3 flex flex-col gap-2">
         <FilterHeading text="Rating" />
         {ratings.map((data, index) => (

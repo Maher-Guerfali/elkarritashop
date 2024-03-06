@@ -13,7 +13,7 @@ const InputRange = () => {
         type="range"
         min="0"
         max={maxRange}
-        step="200"
+        step="4"
         name="priceRange"
         value={priceRange}
         className="w-full accent-[--primary-text-color] cursor-pointer"
