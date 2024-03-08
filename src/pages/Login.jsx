@@ -40,7 +40,8 @@ const Login = () => {
         <section className="px-7 py-10 rounded-md shadow-md bg-white/[0.7] flex flex-col gap-6 w-full max-w-lg">
           <Logo />
           <div className="flex flex-col gap-2">
-            <h1 className="text-3xl font-bold mb-3 ">Login to your account</h1>
+          <h1 className="text-3xl font-extrabold mb-3 "> - unavailable, will be open in april -</h1>
+            <h1 className="text-3xl  mb-3 ">Login to your account</h1>
 
             <form
               action=""

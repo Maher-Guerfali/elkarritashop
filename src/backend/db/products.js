@@ -36,12 +36,12 @@ export const products = [
 
   
     {
-      _id: "efdd52f6-4e35-4cd7-ad4a-0a9b52de894f",
+      _id: "efdd52f6-4e35-4cd7-ad4a-0a9b52po894f",
       qty: 4,
       name: "Little Cow",
     description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      brand: "Ray-Ban",
+        "Clay homemade little cow",
+      brand: "El karrita",
       category: "Clay",
       gender: "Men",
       arlink:"https://elkarrita.glitch.me/?editorid=583&model=https%3A%2F%2Fraw.githubusercontent.com%2FKhronosGroup%2FglTF-Sample-Models%2Fmaster%2F2.0%2FDamagedHelmet%2FglTF-Embedded%2FDamagedHelmet.gltf",
@@ -59,11 +59,12 @@ export const products = [
       name: "Virtual Rose",
     description:
         "Each flower comes with a custom name, adding a heartfelt touch to your gesture. With augmented reality technology, your message comes to life, creating a memorable and immersive experience.",
-      brand: "Ray-Ban",
-      category: "vritual",
+      brand: "El karrita",
+      category: "virtual",
       gender: "unisex",
       weight: "30g",
       quantity: 99,
+    
       image: vrf,
       rating: 4,
       price: 5,
@@ -80,6 +81,7 @@ export const products = [
       category: "retail",
       gender: "unisex",
       weight: "50g",
+      arlink:"https://mahergrf.com/elkarrita/?editorid=583&model=https%3A%2F%2Fraw.githubusercontent.com%2FKhronosGroup%2FglTF-Sample-Models%2Fmaster%2F2.0%2FDamagedHelmet%2FglTF-Embedded%2FDamagedHelmet.gltf",
       quantity: 10,
       image: gokushaker,
       rating: 4.5,
