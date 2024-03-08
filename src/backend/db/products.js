@@ -5,18 +5,10 @@ import Printed4 from "../../assets/3dprinted/support.jpg"
 import clay1 from "../../assets/clayprinted/1.png";
 import clay2 from "../../assets/clayprinted/2.png";
 import clay3 from "../../assets/clayprinted/3.png";
-
-import ali from "../../assets/aliproduct/all.png";
 import ali1 from "../../assets/aliproduct/strn.png";
-import ali2 from "../../assets/aliproduct/girlneck.avif";
-import ali3 from "../../assets/aliproduct/eze.png";
 import ali4 from "../../assets/aliproduct/w.png";
-
-
-import abdominalroller from "../../assets/aliproduct/w.png";
-
+import abdominalroller from "../../assets/aliproduct/abdominalroller.jpg";
 import shaker from "../../assets/aliproduct/shaker.jpg";
-
 import goku from "../../assets/3dprinted/goku.jpg"
 import tiger from "../../assets/3dprinted/tiger.jpg"
 import pain from "../../assets/3dprinted/pain.jpg"
@@ -30,8 +22,11 @@ import youda from "../../assets/3dprinted/youda.jpg"
 import support from "../../assets/3dprinted/support.jpg"
 import bic from "../../assets/3dprinted/bic.jpg"
 import butterf from "../../assets/3dprinted/butterf.jpg"
-
-
+import granoulas from "../../assets/granoula/gokugran.png"
+import gymshark from "../../assets/aliproduct/Gymshark-Logo.jpg.png"
+import gokushaker from "../../assets/aliproduct/goku dhzkrt.png"
+import desk from "../../assets/3dprinted/desk.jpg"
+import vrf from "../../assets/vrprinted/vrf.png"
 //import clay4 from "../../assets/clayprinted/4.png";
 /**
  * Product Database can be added here.
@@ -44,17 +39,85 @@ export const products = [
       _id: "efdd52f6-4e35-4cd7-ad4a-0a9b52de894f",
       qty: 4,
       name: "Little Cow",
-      //description:
-        //"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      //brand: "Ray-Ban",
+    description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      brand: "Ray-Ban",
       category: "Clay",
-      //gender: "Men",
+      gender: "Men",
       weight: "30g",
       quantity: 10,
       image: clay1,
       rating: 4.5,
       price: 30,
       newPrice: 27,
+      trending: true,
+    },
+    {
+      _id: "efdd52f6-4e35-4cd7-ad4a-0a9b5gf894f",
+      qty: 4,
+      name: "Virtual Rose",
+    description:
+        " Each flower comes with a custom name, adding a heartfelt touch to your gesture. With augmented reality technology, your message comes to life, creating a memorable and immersive experience.",
+      brand: "Ray-Ban",
+      category: "vritual",
+      gender: "unisex",
+      weight: "30g",
+      quantity: 99,
+      image: vrf,
+      rating: 4,
+      price: 5,
+      newPrice: 4,
+      trending: false,
+    },
+    {
+      _id: "efdd52f6-4e35-4cd7-ad4a-0a9bzee894f",
+      qty: 4,
+      name: "Dragon ball Shakers",
+    description:
+        "Introducing our Dragon Ball-themed protein shaker and creatine mini shaker! Fuel your workouts with the power of your favorite characters.",
+      brand: "Whey Complex",
+      category: "retail",
+      gender: "unisex",
+      weight: "50g",
+      quantity: 10,
+      image: gokushaker,
+      rating: 4.5,
+      price: 55,
+      newPrice: 50,
+      trending: true,
+    },
+    {
+      _id: "efdd52f6-4e35-4cd7-ad4a-0a9ddd894f",
+      qty: 4,
+      name: "Gym Shark",
+    description:
+        "Gym Shark dropshipping service. Take your workout to the next level with premium athletic wear delivered straight to your door! Simply pre-order your items, send us the links, and we'll handle the rest.",
+      brand: "Gym Shark",
+      category: "retail",
+      gender: "unisex",
+      //weight: "30g",
+      //quantity: 10,
+      image: gymshark,
+      rating: 4.5,
+      price: 150,
+      newPrice: 130,
+      trending: true,
+    },
+    {
+      _id: "887cdd99-1503-4527-aef4-88ZZ1126a47",
+      qty: 55,
+      name: "Granoula Sayian edition",
+      description:
+        "Introducing Granola: Saiyan Edition – a caffeinated boost for breakfast! Fuel your day with crunchy goodness and real benefits. Power up your adventures with this invigorating blend.",
+      brand: "El Karrita",
+      category: "Granoula",
+      //gender: "unisex",
+      weight: "110g",
+      quantity: 5,
+      image: granoulas,
+      rating: 4.8,
+      price: 20,
+      newPrice: 18,
       trending: true,
     },
     {
@@ -65,14 +128,14 @@ export const products = [
         "Pellentesque ac tortor sed ipsum feugiat condimentum.Pellentesque ac tortor sed ipsum feugiat condimentum.",
       brand: "Persol",
       category: "Clay",
-      //gender: "Men",
+      gender: "Men",
       weight: "100g",
       quantity: 5,
       image: clay2,
       rating: 4.8,
       price: 35,
       newPrice: 32,
-      trending: true,
+      trending: false,
     },
     {
       _id: "dc2b2495-eb6c-4889-a6f7-3c8853a01ba2",
@@ -89,18 +152,16 @@ export const products = [
       rating: 4.7,
       price: 24,
       newPrice: 22,
-      trending: true,
+      trending: false,
     },
    
     {
       _id: "6033723f-a8db-4ad8-bfda-d191778141aa",
       qty: 0,
       name: "PC/IPad Support",
-      description:
-        "PC Support",
-      
+      description: "PC Support",
       category: "Printable",
-     // gender: "Women",
+      gender: "Women",
       weight: "120g",
       quantity: 9,
       image: Printed4,
@@ -112,11 +173,10 @@ export const products = [
       _id: "ac072970-8dac-42fe-8c31-a8fa6fd4b64a",
       qty: 0,
       name: "pencil desk",
-     // description:
-       // "Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
+     description:"Donec interdum felis non justo sollicitudin lobortis. Donec interdum felis non justo sollicitudin lobortis.",
       brand: "Carrera",
-      category: "3DPrintable",
-     // gender: "Unisex",
+      category: "Printable",
+     gender: "Unisex",
       weight: "550g",
       quantity: 7,
       image: Printed1,
@@ -128,11 +188,10 @@ export const products = [
       _id: "8ad38385-1211-4192-8108-db851b4e0434",
       qty: 0,
       name: "Golden line vase",
-      description:
-        "",
-      //brand: "Carrera",
-      category: "3DPrintable",
-     // gender: "Unisex",
+      description:"",
+      brand: "Carrera",
+      category: "Printable",
+      gender: "Unisex",
       weight: "550g",
       quantity: 7,
       image: Printed2,
@@ -144,12 +203,11 @@ export const products = [
       _id: "8ad38385-1211-4192-8108-db8rf4e1434",
       qty: 0,
       name: "Leaf earring",
-      description:
-        "",
-      //brand: "Carrera",
+      description:"",
+      brand: "Carrera",
       category: "Retail",
-     // gender: "Unisex",
-      //weight: "55g",
+     gender: "Unisex",
+      weight: "55g",
       quantity: 2,
       image: ali1,
       rating: 4.8,
@@ -163,7 +221,7 @@ export const products = [
       description:
         "",
       //brand: "Carrera",
-      category: "3DPrintable",
+      category: "retail",
      // gender: "Unisex",
       weight: "550g",
       quantity: 7,
@@ -180,7 +238,7 @@ export const products = [
       description:
         "Support for Laptop Pc.",
       brand: "El Karrita",
-      category: "3DPrintable",
+      category: "Printable",
       gender: "Unisex",
       weight: "100g",
       quantity: 5,
@@ -195,7 +253,7 @@ export const products = [
       name: "Cat Stretch Voronoi",
       description: "this 3D printed cat sculpture embodies the pure joy of a feline yawn and stretch.",
       brand: "El Karrita",
-      category: "3DPrintable",
+      category: "Printable",
       gender: "Unisex",
       weight: "30g",
       quantity: 5,
@@ -210,7 +268,7 @@ export const products = [
       name: "Goku",
       description: "This dynamic 3D printed sculpture captures the legendary Saiyan warrior, Goku, in a powerful pose.  His feet are planted firmly, one slightly forward for stability, ready to launch into action.  His muscles tense, conveying a sense of focused energy.",
       brand: "El Karrita",
-      category: "3DPrintable",
+      category: "Printable",
       gender: "Unisex",
       weight: "145g",
       quantity: 5,
@@ -225,11 +283,26 @@ export const products = [
       name: "Venom Symbiotic Spider-Man",
       description: "This unique 3D printed sculpture reimagines the iconic villain Venom in a mesmerizing Voronoi style. The black symbiote that forms Venom's body is rendered as a web of organic, interconnected cells.  These cells bulge and twist, capturing the monstrous form of Venom with a captivating geometric aesthetic.",
       brand: "El Karrita",
-      category: "3DPrintable",
+      category: "Printable",
       gender: "Unisex",
       weight: "40g",
       quantity: 5,
       image: spider,
+      rating: 4,
+      price: 19,
+      newPrice: 20,
+    },
+    {
+      _id: "c76bfe40-47d2-4d38-b465-afazee2klmdcd",
+      qty: 0,
+      name: "Small Desk",
+      //description: "This unique 3D printed sculpture reimagines the iconic villain Venom in a mesmerizing Voronoi style. The black symbiote that forms Venom's body is rendered as a web of organic, interconnected cells.  These cells bulge and twist, capturing the monstrous form of Venom with a captivating geometric aesthetic.",
+      brand: "El Karrita",
+      category: "Printable",
+      gender: "Unisex",
+      weight: "40g",
+      quantity: 5,
+      image: desk,
       rating: 4,
       price: 19,
       newPrice: 20,
@@ -240,7 +313,7 @@ export const products = [
       name: "Kunai",
       description: "This 3D printed kunai captures the essence of the classic ninja throwing weapon with a touch of modern innovation.  The design stays true to the traditional form:",
       brand: "El Karrita",
-      category: "3DPrintable",
+      category: "Printable",
       gender: "Unisex",
       weight: "60g",
       quantity: 5,
@@ -254,7 +327,7 @@ export const products = [
       qty: 0,
       name: "Pain Train Knuckles",
       description: "This 3D printed Knuckles punch isn't just a decoration; it's a dynamic symbol of Knuckles' strength and fighting spirit.",
-      category: "3DPrintable",
+      category: "Printable",
       gender: "Unisex",
       weight: "20g",
       quantity: 5,
@@ -271,7 +344,7 @@ export const products = [
       gender: "Unisex",
       weight: "35g",
       quantity: 5,
-      category: "Retail",
+      category: "printable",
       image: butterf,
       rating: 5,
       price: 19,
@@ -285,7 +358,7 @@ export const products = [
       gender: "Unisex",
       weight: "14g",
       quantity: 5,
-      category: "3DPrintable",
+      category: "Printable",
       image: bic,
       rating: 5,
       price: 3,
@@ -298,7 +371,7 @@ export const products = [
       description: "The world of 3D printed earrings offers a dazzling array of possibilities, pushing the boundaries of traditional jewelry design.",
       gender: "Unisex",
       weight: "1g",
-      category: "3DPrintable",
+      category: "Printable",
       quantity: 5,
       image: earring,
       rating: 5,
@@ -313,7 +386,7 @@ export const products = [
       gender: "Unisex",
       weight: "1g",
       quantity: 5,
-      category: "3DPrintable",
+      category: "Printable",
       image: feath,
       rating: 4,
       price: 3,
@@ -326,7 +399,7 @@ export const products = [
       description: "This 3D printed card wallet is the perfect blend of modern design, eco-friendly materials, and everyday functionality.",
       gender: "Unisex",
       weight: "34g",
-      category: "3DPrintable",
+      category: "Printable",
       quantity: 5,
       image: wallet,
       rating: 4,
@@ -341,7 +414,7 @@ export const products = [
       gender: "Unisex",
       weight: "57g",
       quantity: 5,
-      category: "3DPrintable",
+      category: "Printable",
       image: wall,
       rating: 5,
       price: 10,
@@ -355,7 +428,7 @@ export const products = [
       gender: "Unisex",
       weight: "142g",
       quantity: 5,
-      category: "3DPrintable",
+      category: "Printable",
       image: youda,
       rating: 5,
       price: 16,

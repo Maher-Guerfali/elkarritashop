@@ -1,6 +1,6 @@
 import React from "react";
 import "../../loader.styles.css";
-import loadingGif from "../../assets/loading.gif";
+import loadingGif from "../../assets/gifkarrita.gif";
 const Loader = () => {
   return (
     <div className="text-loader font-monoton flex flex-col gap-1 items-center">
