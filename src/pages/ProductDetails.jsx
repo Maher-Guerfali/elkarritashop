@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { BsBookmarkHeart, BsFillBookmarkHeartFill } from "react-icons/bs";
+import aricon from "../../src/assets/aricon.png"
 
 import {
   useAuthContext,
@@ -98,6 +99,20 @@ const ProductDetails = () => {
           </div>
 
           <div className={`w-full   flex gap-4 items-center   flex-wrap  `}>
+          
+          <button
+    className={`flex items-center border border-[--primary-text-color] py-1.5 text-sm rounded-full px-6 hover:bg-[--primary-text-color] hover:text-white transition hover:shadow-md`}
+    onClick={() => {
+        window.open('https://elkarrita.glitch.me/?editorid=583&model=https%3A%2F%2Fraw.githubusercontent.com%2FKhronosGroup%2FglTF-Sample-Models%2Fmaster%2F2.0%2FDamagedHelmet%2FglTF-Embedded%2FDamagedHelmet.gltf', '_blank', 'noopener noreferrer');
+    }}
+>
+    <img
+        src={aricon}
+        alt=""
+        className="w-6 h-6 mr-1" // Adjust width and height as needed
+    />
+    Virtual View
+</button>
             <button
               className="btn-rounded-secondary flex items-center gap-2 text-sm disabled:cursor-not-allowed"
               disabled={disableCart}

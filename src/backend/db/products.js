@@ -44,6 +44,7 @@ export const products = [
       brand: "Ray-Ban",
       category: "Clay",
       gender: "Men",
+      arlink:"https://elkarrita.glitch.me/?editorid=583&model=https%3A%2F%2Fraw.githubusercontent.com%2FKhronosGroup%2FglTF-Sample-Models%2Fmaster%2F2.0%2FDamagedHelmet%2FglTF-Embedded%2FDamagedHelmet.gltf",
       weight: "30g",
       quantity: 10,
       image: clay1,
@@ -57,7 +58,7 @@ export const products = [
       qty: 4,
       name: "Virtual Rose",
     description:
-        " Each flower comes with a custom name, adding a heartfelt touch to your gesture. With augmented reality technology, your message comes to life, creating a memorable and immersive experience.",
+        "Each flower comes with a custom name, adding a heartfelt touch to your gesture. With augmented reality technology, your message comes to life, creating a memorable and immersive experience.",
       brand: "Ray-Ban",
       category: "vritual",
       gender: "unisex",

@@ -63,6 +63,17 @@ const SingleProduct = ({ product }) => {
           <p className="text-sm text-gray-600">{product.brand}</p>
         </div>
         <div className="w-full pt-2 border-t flex justify-between items-center">
+
+        <button
+    className={`border border-[--primary-text-color] py-1.5 text-sm rounded-full px-6 hover:bg-[--primary-text-color] hover:text-white transition hover:shadow-md`}
+    onClick={() => {
+        window.open('https://elkarrita.glitch.me/?editorid=583&model=https%3A%2F%2Fraw.githubusercontent.com%2FKhronosGroup%2FglTF-Sample-Models%2Fmaster%2F2.0%2FDamagedHelmet%2FglTF-Embedded%2FDamagedHelmet.gltf', '_blank', 'noopener noreferrer');
+    }}
+>
+    Virtual View
+</button>
+
+
           <button
             className={`border border-[--primary-text-color]  py-1.5 text-sm  rounded-full px-6 hover:bg-[--primary-text-color] hover:text-white transition hover:shadow-md disabled:cursor-not-allowed`}
             disabled={disableCart}
@@ -81,6 +92,7 @@ const SingleProduct = ({ product }) => {
           >
             {inCart ? "Go to Bag" : "Add to Bag"}
           </button>
+
           <button
             disabled={disableWish}
             className="disabled:cursor-not-allowed"
