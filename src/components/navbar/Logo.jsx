@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Logo = () => {
   return (
     <Link to="/">
-      <div className=" text-3xl hover:text-red-800 cursor-pointer text-center transition">
+      <div className="font-monoton text-3xl hover:text-red-800 cursor-pointer text-center transition">
         El Karrita
       </div>
     </Link>
