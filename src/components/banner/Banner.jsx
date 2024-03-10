@@ -27,7 +27,7 @@ const Banner = ({ catRef }) => {
         <section className="flex items-center">
         <button
   className="btn-primary text-xl md:text-3xl px-8 py-4 md:px-10 md:py-5 bg-blue-500 hover:bg-blue-600 text-white rounded-lg"
-  onClick={() => window.location.href = "https://karritall.glitch.me/"} // Replace "https://example.com" with the desired website URL
+  onClick={() => window.location.href = "https://mahergrf.com/karrita/"} // Replace "https://example.com" with the desired website URL
 >
   Enter The Virtual Shop
 </button>

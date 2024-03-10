@@ -27,6 +27,8 @@ import gymshark from "../../assets/aliproduct/Gymshark-Logo.jpg.png"
 import gokushaker from "../../assets/aliproduct/goku dhzkrt.png"
 import desk from "../../assets/3dprinted/desk.jpg"
 import vrf from "../../assets/vrprinted/vrf.png"
+import vitoris from "../../assets/aliproduct/vitoris.png"
+import lighter from "../../assets/aliproduct/lighter.jpg"
 //import clay4 from "../../assets/clayprinted/4.png";
 /**
  * Product Database can be added here.
@@ -44,7 +46,6 @@ export const products = [
       brand: "El karrita",
       category: "Clay",
       gender: "Men",
-      arlink:"https://elkarrita.glitch.me/?editorid=583&model=https%3A%2F%2Fraw.githubusercontent.com%2FKhronosGroup%2FglTF-Sample-Models%2Fmaster%2F2.0%2FDamagedHelmet%2FglTF-Embedded%2FDamagedHelmet.gltf",
       weight: "30g",
       quantity: 10,
       image: clay1,
@@ -52,6 +53,41 @@ export const products = [
       price: 30,
       newPrice: 27,
       trending: true,
+    },
+    {
+      _id: "efdd52f6-4e35-4cd7-ad4a-0a9b5bvv94f",
+      qty: 4,
+      name: "wall planter",
+    description:
+        "3D printed",
+      brand: "El karrita",
+      category: "Clay",
+      gender: "Men",
+      arlink:"https://mahergrf.com/elkarrita/?editorid=583&model=https%3A%2F%2Fmahergrf.com%2Ftitouch%2Fvase.gltf",
+      weight: "30g",
+      quantity: 10,
+      image: clay1,
+      rating: 4.5,
+      price: 30,
+      newPrice: 27,
+      trending: true,
+    },
+    {
+      _id: "efdd5ez-4e35-4cd7-ad4a-0a9b52po894f",
+      qty: 4,
+      name: "kerosen lighter",
+    description:
+        "kerosen",
+      brand: "El karrita",
+      category: "retail",
+      gender: "Men",
+      weight: "30g",
+      quantity: 10,
+      image: lighter,
+      rating: 4.5,
+      price: 30,
+      newPrice: 27,
+      trending: false,
     },
     {
       _id: "efdd52f6-4e35-4cd7-ad4a-0a9b5gf894f",
@@ -92,7 +128,7 @@ export const products = [
     {
       _id: "efdd52f6-4e35-4cd7-ad4a-0a9ddd894f",
       qty: 4,
-      name: "Gym Shark",
+      name: "GYMSHARK® Products",
     description:
         "Gym Shark dropshipping service. Take your workout to the next level with premium athletic wear delivered straight to your door! Simply pre-order your items, send us the links, and we'll handle the rest.",
       brand: "Gym Shark",
@@ -107,11 +143,28 @@ export const products = [
       trending: true,
     },
     {
+      _id: "efdere2f6-4e35-4cd7-ad4a-0a9ddd894f",
+      qty: 4,
+      name: "Victoria's Secret® products",
+    description:
+        "Victoria Secret dropshipping service. Send us product links, and we'll handle the rest.",
+      brand: "Victoria Secret",
+      category: "retail",
+      gender: "Female",
+      //weight: "30g",
+      //quantity: 10,
+      image: vitoris,
+      rating: 4.5,
+      price: 150,
+      newPrice: 130,
+      trending: false,
+    },
+    {
       _id: "887cdd99-1503-4527-aef4-88ZZ1126a47",
       qty: 55,
       name: "Granola Sayian edition",
       description:
-        "Introducing Granola: Saiyan Edition – a caffeinated boost for breakfast! Fuel your day with crunchy goodness and real benefits. Goku swate.",
+        "Introducing Granola: Saiyan Edition – a caffeinated boost for breakfast! Carbohydrates: 65 grams, Protein:  15 grams, Fat:  15 grams, Fiber:  10 grams, Sugar:  25 grams",
       brand: "El Karrita",
       category: "Granoula",
       //gender: "unisex",
@@ -145,8 +198,8 @@ export const products = [
       qty: 0,
       name: "Leaf Necklace",
       description:
-        "Integer et nunc in turpis maximus facilisis ac ac elit.Integer et nunc in turpis maximus facilisis ac ac elit.",
-      brand: "Kate Spade",
+        "Clay homemade.",
+      brand: "el karrtia",
       category: "Clay",
       gender: "Unisex",
       weight: "750g",
@@ -176,8 +229,8 @@ export const products = [
       _id: "ac072970-8dac-42fe-8c31-a8fa6fd4b64a",
       qty: 0,
       name: "pencil desk",
-     description:"Pensell.",
-      brand: "Carrera",
+     description:"pen.",
+      brand: "el karrtia",
       category: "Printable",
      gender: "Unisex",
       weight: "550g",
@@ -192,7 +245,7 @@ export const products = [
       qty: 0,
       name: "Golden line vase",
       description:"",
-      brand: "Carrera",
+      brand: "el karrtia",
       category: "Printable",
       gender: "Unisex",
       weight: "550g",
@@ -209,7 +262,7 @@ export const products = [
       qty: 0,
       name: "Leaf earring",
       description:"",
-      brand: "Carrera",
+      brand: "el karrtia",
       category: "Retail",
      gender: "Unisex",
       weight: "55g",
