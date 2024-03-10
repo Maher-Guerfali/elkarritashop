@@ -29,6 +29,7 @@ import desk from "../../assets/3dprinted/desk.jpg"
 import vrf from "../../assets/vrprinted/vrf.png"
 import vitoris from "../../assets/aliproduct/vitoris.png"
 import lighter from "../../assets/aliproduct/lighter.jpg"
+import vase from "../../assets/3dprinted/vase.png"
 //import clay4 from "../../assets/clayprinted/4.png";
 /**
  * Product Database can be added here.
@@ -61,12 +62,12 @@ export const products = [
     description:
         "3D printed",
       brand: "El karrita",
-      category: "Clay",
+      category: "printable",
       gender: "Men",
       arlink:"https://mahergrf.com/elkarrita/?editorid=583&model=https%3A%2F%2Fmahergrf.com%2Ftitouch%2Fvase.gltf",
       weight: "30g",
       quantity: 10,
-      image: clay1,
+      image: vase,
       rating: 4.5,
       price: 30,
       newPrice: 27,
@@ -75,7 +76,7 @@ export const products = [
     {
       _id: "efdd5ez-4e35-4cd7-ad4a-0a9b52po894f",
       qty: 4,
-      name: "kerosen lighter",
+      name: "Kerosene Lighter",
     description:
         "kerosen",
       brand: "El karrita",
@@ -130,7 +131,7 @@ export const products = [
       qty: 4,
       name: "GYMSHARK® Products",
     description:
-        "Gym Shark dropshipping service. Take your workout to the next level with premium athletic wear delivered straight to your door! Simply pre-order your items, send us the links, and we'll handle the rest.",
+        "Gym Shark dropshipping service. Take your workout to the next level with premium athletic wear delivered straight to your door! Simply pre-order your items, send us the item links or picture, and we'll handle the rest.",
       brand: "Gym Shark",
       category: "retail",
       gender: "unisex",
@@ -147,7 +148,7 @@ export const products = [
       qty: 4,
       name: "Victoria's Secret® products",
     description:
-        "Victoria Secret dropshipping service. Send us product links, and we'll handle the rest.",
+        "Victoria Secret dropshipping service. Send us product links or picture, and we'll handle the rest.",
       brand: "Victoria Secret",
       category: "retail",
       gender: "Female",
@@ -166,7 +167,7 @@ export const products = [
       description:
         "Introducing Granola: Saiyan Edition – a caffeinated boost for breakfast! Carbohydrates: 65 grams, Protein:  15 grams, Fat:  15 grams, Fiber:  10 grams, Sugar:  25 grams",
       brand: "El Karrita",
-      category: "Granoula",
+      category: "Granola",
       //gender: "unisex",
       weight: "260g",
       quantity: 5,

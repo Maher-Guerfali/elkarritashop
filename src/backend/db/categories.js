@@ -40,7 +40,7 @@ export const categories = [
   },
   {
     _id: "122345b-1659-4631-88d7-4grasf",
-    categoryName: "granoula",
+    categoryName: "granola",
     description:
       "Fuel your body and excite your taste buds with our protein-rich granola blends.",
     categoryImg: glassCategory5,
