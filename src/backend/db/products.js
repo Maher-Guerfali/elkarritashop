@@ -30,6 +30,7 @@ import vrf from "../../assets/vrprinted/vrf.png"
 import vitoris from "../../assets/aliproduct/vitoris.png"
 import lighter from "../../assets/aliproduct/lighter.jpg"
 import vase from "../../assets/3dprinted/vase.png"
+import chair from "../../assets/3dprinted/chair.png"
 //import clay4 from "../../assets/clayprinted/4.png";
 /**
  * Product Database can be added here.
@@ -176,6 +177,24 @@ export const products = [
       price: 20,
       newPrice: 18,
       trending: true,
+    },
+    {
+      _id: "887cdd99-1503-4527-aef4-8xcz126a47",
+      qty: 55,
+      name: "Desk chair",
+      description:
+        "Chair",
+      brand: "El karrita",
+      category: "printable",
+      //gender: "unisex",
+      weight: "8600g",
+      arlink:"https://mahergrf.com/elkarrita/?editorid=583&model=https%3A%2F%2Fmahergrf.com%2Ftitouch%2Fchair.gltf",
+      quantity: 5,
+      image: chair,
+      rating: 4.8,
+      price: 440,
+      newPrice: 400,
+      trending: false,
     },
     {
       _id: "887cdd99-1503-4527-aef4-88c521126a47",
